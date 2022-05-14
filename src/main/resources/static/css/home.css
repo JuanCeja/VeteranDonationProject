@@ -1,0 +1,75 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: rgb(230, 225, 225);
+}
+
+.topHeader img {
+	width: 100%;
+	height: 450px;
+}
+
+.description {
+	margin-top: 35px; 
+	display : flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 35px;
+}
+
+.donatedEventsTable p,
+.donatedEventsTable h1{
+	text-align: center;
+}
+
+.recommendActivityLink{
+	margin: auto;
+	text-align: center;
+	display: block;
+	margin-bottom: 35px;
+}
+
+
+.upvoteIcon {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.tableData {
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+	text-align: center;
+	border: 1px solid red;
+}
+
+.upvoteSection {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+
+thead tr th {
+	width: 25%;
+	text-align: center;
+}
+
+tbody tr th {
+	width: 25%;
+	text-align: center;
+}
+
+tbody tr td {
+	width: 25%;
+	text-align: center;
+}
+
+tbody tr td img {
+	width: 200px;
+	height: 100px;
+}
