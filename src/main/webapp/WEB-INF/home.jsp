@@ -41,7 +41,8 @@
 		</h5>
 	</div>
 	<div class="donatedEventsTable">
-		<h1>Donated Events</h1>
+		<h1>Donated Activities</h1>
+		<p><i>These are the events that users and veterans can vote on. The activity with the highest votes will be the activity in which the donation money will go to. Donated Activity will happen on the date stated above.</i></p>
 		<p style="color: red;">Total Amount Donated: $2300</p>
 		<table class="table table-hover">
 			<thead>

@@ -67,9 +67,80 @@
 				</p>
 				<form:errors path="date" class="form-control-lg" />
 				<form:input path="date" class="form-control-lg" />
+
+				<p>
+					<form:label path="state">
+						<strong>State: </strong>
+					</form:label>
+					<br>
+				</p>
+				<form:errors path="state" class="form-control-lg" />
+				<form:select path="state">
+					<form:option value="AL">ALABAMA</form:option>
+					<form:option value="AK">ALASKA</form:option>
+					<form:option value="AR">ARKANSAS</form:option>
+					<form:option value="AZ">ARIZONA</form:option>
+					<form:option value="CA">CALIFORNIA</form:option>
+					<form:option value="CO">COLORADO</form:option>
+					<form:option value="CT">CONNECTICUT</form:option>
+					<form:option value="DE">DELAWARE</form:option>
+					<form:option value="FL">FLORIDA</form:option>
+					<form:option value="GA">GEORGIA</form:option>
+					<form:option value="HI">HAWAII</form:option>
+					<form:option value="ID">IDAHO</form:option>
+					<form:option value="IL">ILLINOIS</form:option>
+					<form:option value="IN">INDIANA</form:option>
+					<form:option value="IA">IOWA</form:option>
+					<form:option value="KS">KANSAS</form:option>
+					<form:option value="KY">KENTUCKY</form:option>
+					<form:option value="LA">LOUISIANA</form:option>
+					<form:option value="ME">MAINE</form:option>
+					<form:option value="MD">MARYLAND</form:option>
+					<form:option value="MA">MASSACHUSETTS</form:option>
+					<form:option value="MI">MICHIGAN</form:option>
+					<form:option value="MN">MINNESOTA</form:option>
+					<form:option value="MS">MISSISSIPPI</form:option>
+					<form:option value="MO">MISSOURI</form:option>
+					<form:option value="MT">MONTANA</form:option>
+					<form:option value="NE">NEBRASKA</form:option>
+					<form:option value="NV">NEVADA</form:option>
+					<form:option value="NH">NEW HAMPSHIRE</form:option>
+					<form:option value="NJ">NEW JERSEY</form:option>
+					<form:option value="NM">NEW MEXICO</form:option>
+					<form:option value="NY">NEW YORK</form:option>
+					<form:option value="NC">NORTH CAROLINA</form:option>
+					<form:option value="ND">NORTH DAKOTA</form:option>
+					<form:option value="OH">OHIO</form:option>
+					<form:option value="OK">OKLAHOMA</form:option>
+					<form:option value="OR">OREGON</form:option>
+					<form:option value="PA">PENNSYLVANIA</form:option>
+					<form:option value="RI">RHODE ISLAND</form:option>
+					<form:option value="SC">SOUTH CAROLINA</form:option>
+					<form:option value="SD">SOUTH DAKOTA</form:option>
+					<form:option value="TN">TENNESSEE</form:option>
+					<form:option value="TX">TEXAS</form:option>
+					<form:option value="UT">UTAH</form:option>
+					<form:option value="VT">VERMONT</form:option>
+					<form:option value="VA">VIRGINIA</form:option>
+					<form:option value="WA">WASHINGTON</form:option>
+					<form:option value="WV">WEST VIRGINIA</form:option>
+					<form:option value="WI">WISONSIN</form:option>
+					<form:option value="WY">WYOMING</form:option>
+				</form:select>
+
+				<p>
+					<form:label path="place">
+						<strong>Location: </strong>
+					</form:label>
+					<br>
+				</p>
+				<form:errors path="place" class="form-control-lg" />
+				<form:input path="place" class="form-control-lg" />
+
 				<div class="buttons">
 					<input class="button" type="submit" value="submit" />
 				</div>
+
 
 			</form:form>
 		</div>

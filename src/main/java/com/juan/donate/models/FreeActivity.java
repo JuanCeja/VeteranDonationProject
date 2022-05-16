@@ -43,6 +43,15 @@ public class FreeActivity {
 	@Size(min = 10, max = 10, message = "Date must be formated in MM-dd-yyyy.")
 	private String date;
 	
+	@NotBlank
+	@Size(min = 2, max = 2, message = "Please select a state.")
+	private String state;
+
+	@NotBlank
+	@Size(min = 3, max = 30, message = "Location must be between 3 and 30 characters long.")
+	private String place;
+
+	
 //  ---- M : 1 ----
 
 	@ManyToOne(fetch = FetchType.LAZY)
@@ -133,4 +142,22 @@ public class FreeActivity {
 	public void setDate(String date) {
 		this.date = date;
 	}
+
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
+	}
+
+
+	public String getPlace() {
+		return place;
+	}
+
+	public void setPlace(String place) {
+		this.place = place;
+	}
+
 }

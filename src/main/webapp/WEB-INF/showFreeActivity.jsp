@@ -1,12 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!-- c:out ; c:forEach etc. --> 
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!-- c:out ; c:forEach etc. -->
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<!-- Formatting (dates) --> 
+<!-- Formatting (dates) -->
 <%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <!-- form:form -->
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!-- for rendering errors on PUT routes -->
-<%@ page isErrorPage="true" %>
+<%@ page isErrorPage="true"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,21 +30,39 @@
 			<c:out value="${freeActivity.name }" />
 		</h1>
 
-			Created By:
-			<h3><c:out value="${freeActivity.user.userName }" /></h3>
+			<p><i>Created By:</i></p>
+			<h3>
+				<c:out value="${freeActivity.user.userName }" />
+			</h3>
+
+			<p><i>Contact Information:</i></p>
+			<h3>
+				<c:out value="${freeActivity.user.email }" />
+			</h3>
+
+			<p><i>Location:</i></p>
+			<h3>
+				<c:out value="${freeActivity.place }"/>, <c:out value="${freeActivity.state }" /> 
+			</h3>
+
+
 
 		<img src="${freeActivity.link }" alt="activity-image" />
 	</div>
 
 	<div class="activity-description">
-		<h4>Description: </h4>
-		<p><c:out value="${freeActivity.description }"></c:out></p>
+		<h4>Description:</h4>
+		<p>
+			<c:out value="${freeActivity.description }"></c:out>
+		</p>
 		<c:if test="${freeActivity.user.id == user_id }">
-			<a class="button" href="/free/activities/${freeActivity.id}/edit">Edit Activity</a>
-			<a class="delete-button" href="/free/delete/${freeActivity.id }">Delete Activity</a>
+			<a class="button" href="/free/activities/${freeActivity.id}/edit">Edit
+				Activity</a>
+			<a class="delete-button" href="/free/delete/${freeActivity.id }">Delete
+				Activity</a>
 		</c:if>
 		<a href="/home"><h5>Home</h5></a>
 	</div>
-	
+
 </body>
 </html>
