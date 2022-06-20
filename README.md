@@ -20,18 +20,17 @@
 ![vet](https://user-images.githubusercontent.com/94949664/174687059-6bd01833-358c-4e92-bad6-702e2abadce4.gif)
 
 
+
 ## Home
+![vetHome](https://user-images.githubusercontent.com/94949664/174687783-9c997a9b-c04f-4815-a7a5-0c7cbe613ef8.gif)
 
 
-#Create A Donated Activity
-![createDonatedActivity](https://user-images.githubusercontent.com/94949664/169148438-30248c41-8bb5-4c78-aa2b-0a11d5d489ae.png)
+
+## Create A Donated Activity
+![createVetApp](https://user-images.githubusercontent.com/94949664/174688490-51f324a5-4ef8-4b9c-872b-f9a02bfdae66.gif)
 
 
-#View Activity/Event
-![viewFreeActivity](https://user-images.githubusercontent.com/94949664/169148318-aad18423-ff5a-436c-9d5c-948e352fc5c0.png)
 
-#Edit Activity
-![editActivity](https://user-images.githubusercontent.com/94949664/169148370-7453b51c-53f8-4c88-8eeb-6acd24181180.png)
+## View, Delete or Edit Your Posted Event
+![vetEditDelete](https://user-images.githubusercontent.com/94949664/174688691-644f2ef4-0bc5-4261-8b8c-a05ef7b26188.gif)
 
-#Post An Free Event
-![postEvent](https://user-images.githubusercontent.com/94949664/169148661-e04a481e-5d7e-468a-a1ad-a299da5840f8.png)
